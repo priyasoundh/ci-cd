@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ServletInitializer extends SpringBootServletInitializer {
 	
-	@RequestMapping(value="/as")
+	@RequestMapping(value="/")
 	@ResponseBody
 	public String home() {
 		return "welcome priya";
