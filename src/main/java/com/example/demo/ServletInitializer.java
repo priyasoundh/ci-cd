@@ -13,7 +13,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 	@RequestMapping(value="/")
 	@ResponseBody
 	public String home() {
-		return "welcome priya";
+		return "welcome...!! /n DevOps Learning invites you...";
 	}
 
 	@Override
